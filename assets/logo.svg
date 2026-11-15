@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Microscopy color calibration</title><desc id="desc">Three microscopes record different colors. Calibration connects each image to consistent spectral reference colors.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f1f7fa"/><stop offset="1" stop-color="#fff8ed"/></linearGradient>
+  <linearGradient id="rainbow"><stop stop-color="#4655aa"/><stop offset=".3" stop-color="#1c9cb2"/><stop offset=".55" stop-color="#77b97e"/><stop offset=".75" stop-color="#dfb950"/><stop offset="1" stop-color="#cc655f"/></linearGradient>
+  <g id="scope" fill="none" stroke="#28495a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-25 24h60M-15 24v-9h41M18 14C55 6 48-38 20-40M7-48l17 17M-3-42l17 17M-9-48l12-11 9 10-12 11zM-12-12h37M-8-5l-6 17"/>
+    <circle cx="25" cy="-6" r="5" fill="#9cbdc8"/>
+  </g>
+  <g id="reference">
+    <rect width="24" height="24" rx="5" fill="#b45c69"/><rect x="30" width="24" height="24" rx="5" fill="#746394"/><rect x="60" width="24" height="24" rx="5" fill="#e4b5a6"/>
+    <rect y="30" width="24" height="24" rx="5" fill="#548a88"/><rect x="30" y="30" width="24" height="24" rx="5" fill="#c5a552"/><rect x="60" y="30" width="24" height="24" rx="5" fill="#dae2df"/>
+  </g>
+</defs>
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+<text x="55" y="57" fill="#183c4c" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="650">Microscopy color calibration</text>
+<text x="56" y="84" fill="#607982" font-family="Segoe UI,Arial,sans-serif" font-size="16">From recorded color to a spectral reference</text>
+<g transform="translate(95 157) scale(.74)"><use href="#scope"/></g>
+<g transform="translate(95 232) scale(.74)"><use href="#scope"/></g>
+<g transform="translate(95 307) scale(.74)"><use href="#scope"/></g>
+<g transform="translate(175 116)">
+<rect width="24" height="24" rx="5" fill="#ba6082"/><rect x="30" width="24" height="24" rx="5" fill="#6e5caa"/><rect x="60" width="24" height="24" rx="5" fill="#dcacc9"/>
+<rect y="30" width="24" height="24" rx="5" fill="#487b91"/><rect x="30" y="30" width="24" height="24" rx="5" fill="#b8a06c"/><rect x="60" y="30" width="24" height="24" rx="5" fill="#c7d3e2"/></g>
+<g transform="translate(175 191)">
+<rect width="24" height="24" rx="5" fill="#ba7048"/><rect x="30" width="24" height="24" rx="5" fill="#85777e"/><rect x="60" width="24" height="24" rx="5" fill="#ebc88e"/>
+<rect y="30" width="24" height="24" rx="5" fill="#738779"/><rect x="30" y="30" width="24" height="24" rx="5" fill="#cbb342"/><rect x="60" y="30" width="24" height="24" rx="5" fill="#e6e4c7"/></g>
+<g transform="translate(175 266)">
+<rect width="24" height="24" rx="5" fill="#a05d62"/><rect x="30" width="24" height="24" rx="5" fill="#5c717f"/><rect x="60" width="24" height="24" rx="5" fill="#c8b9aa"/>
+<rect y="30" width="24" height="24" rx="5" fill="#45877c"/><rect x="30" y="30" width="24" height="24" rx="5" fill="#9d9e63"/><rect x="60" y="30" width="24" height="24" rx="5" fill="#c9d9cc"/></g>
+<g fill="none" stroke="#9fb7be" stroke-width="2.5"><path d="M285 143C340 143 335 220 390 220M285 218h105M285 293C340 293 335 220 390 220"/><path d="m381 211 9 9-9 9"/></g>
+<rect x="420" y="133" width="300" height="167" rx="22" fill="white" stroke="#cedde2" stroke-width="1.5"/>
+<path d="M454 231h227" stroke="#dce7eb"/><path d="M455 230C481 230 480 175 503 174S526 228 542 227 557 168 580 165 607 229 626 228 649 184 680 190" fill="none" stroke="url(#rainbow)" stroke-width="5" stroke-linecap="round"/>
+<text x="570" y="263" fill="#244c5c" font-family="Segoe UI,Arial,sans-serif" font-size="20" text-anchor="middle" font-weight="600">Spectra → calibration</text>
+<text x="570" y="284" fill="#738b93" font-family="Segoe UI,Arial,sans-serif" font-size="12" text-anchor="middle">a measured reference for each microscope</text>
+<g fill="none" stroke="#6e9fa9" stroke-width="2.5"><path d="M747 218C800 218 795 143 848 143M747 218h101M747 218C800 218 795 293 848 293"/><path d="M839 134l9 9-9 9M839 209l9 9-9 9M839 284l9 9-9 9"/></g>
+<use href="#reference" x="874" y="116"/><use href="#reference" x="874" y="191"/><use href="#reference" x="874" y="266"/>
+<path d="M996 143h22m-22 75h22m-22 75h22M1018 143v150" fill="none" stroke="#a3c0c5" stroke-width="2"/>
+<text x="1040" y="207" fill="#285c65" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Consistent</text>
+<text x="1040" y="231" fill="#285c65" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">colors</text>
+</svg>
