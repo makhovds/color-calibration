@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite both accompanying papers and identify the notebook profile and data release used."
+title: "Microscopy color calibration: reproducible research workflows"
+type: software
+authors:
+  - family-names: Makhov
+    given-names: Denis
+license: MIT
+references:
+  - type: article
+    title: "Color Calibration Slide for Digital Microscopy Systems"
+    authors:
+      - {family-names: Makhov, given-names: D. S.}
+      - {family-names: Sagatelyan, given-names: G. R.}
+      - {family-names: Samorodov, given-names: A. V.}
+    journal: Measurement Techniques
+    year: 2022
+    doi: 10.1007/s11018-022-02014-7
+  - type: article
+    title: "Development of metrological support for color calibration of digital microscopy systems"
+    authors:
+      - {family-names: Makhov, given-names: D. S.}
+      - {family-names: Samorodova, given-names: O. A.}
+      - {family-names: Muravskaya, given-names: N. P.}
+      - {family-names: Samorodov, given-names: A. V.}
+    journal: "Journal of Physics: Conference Series"
+    year: 2022
+    volume: 2192
+    start: '012010'
+    doi: 10.1088/1742-6596/2192/1/012010

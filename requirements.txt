@@ -1,0 +1,11 @@
+# Numerical versions used for the supplied reproduction; Python 3.12 recommended.
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+matplotlib==3.9.2
+Pillow==12.2.0
+openpyxl==3.1.5
+scikit-learn==1.5.1
+jupyterlab>=4.2,<5
+ipykernel>=6.29,<7
+nbconvert>=7.16,<8
